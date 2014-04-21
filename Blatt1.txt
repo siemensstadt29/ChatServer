@@ -1,0 +1,10 @@
+Sonia Grozdanova 339720 sgrozdanova13@gmail.com
+Stefan Gierke 332180 stefan_gierke@web.de
+
+Antworten zu Aufgabe 1.3:
+
+a) Ja, da mittels der Methode readLine() die Eingabe des Clients zeilenweise gelesen wird. Allerdings dürfen sich in den von den Clients abgeschickten Nachrichten keine Zeilenumbrüche befinden, da ansonsten eine korrekte Nachrichtenrückgabe an die einzelnen Clients nicht gewährleistet werden kann. Beim byteweisen Einlesen - etwa mithilfe der Methode read() - ist die Wahrscheinlichkeit sehr hoch, dass vollkommener Buchstabensalat an die Clients zurückgesendet würde, weil die Nachrichten beider Clients völlig ungeordnet vom Server gelesen werden.
+
+b) Da Java aufgrund seines Bytecodes sowie der JVM plattformunabhängig und portabel ist und für alle gängigen Betriebssysteme existiert, spielt es keine Rolle, ob der erste Client auf Windows, der zweite auf einem Betriebssystem mit Linux-Kernel und der dritte auf Mac OS gestartet wird. Allerdings kann es vorkommen, dass sehr alte Java SE-Versionen die in der Client-Implementierung verwendeten Klassenbibliotheken nicht kennen.
+
+c) 
